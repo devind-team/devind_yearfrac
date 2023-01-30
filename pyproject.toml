@@ -30,7 +30,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.semantic_release]
 version_variable = [
-    "yearfrac/__init__.py:__version__",
+    "devind_yearfrac/__init__.py:__version__",
     "pyproject.toml:version"
 ]
 branch = "main"
