@@ -5,8 +5,8 @@ description = "Daycount methods to compute date differences in year units"
 authors = ["Ulf Hamster <554c46@gmail.com>", "squak <squakrazv@gmail.com>"]
 license = "MIT"
 readme = "readme.md"
-homepage = "https://github.com/devind-team/yearfrac"
-repository = "https://github.com/devind-team/yearfrac"
+homepage = "https://github.com/devind-team/devind_yearfrac"
+repository = "https://github.com/devind-team/devind_yearfrac"
 
 [tool.poetry.dependencies]
 python = ">=3.9"
