@@ -1,4 +1,3 @@
-
 def isaleapyear(y: int) -> bool:
     if not isinstance(y, int):
         raise Exception("y is not an integer data type.")
