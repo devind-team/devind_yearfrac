@@ -1,4 +1,3 @@
-
 def date_to_jd(year: int, month: int, day: int) -> int:
     a = int((14 - month) / 12.)
     y = int(year + 4800 - a)
