@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "yearfrac"
-version = "0.5.0"
+name = "devind_yearfrac"
+version = "0.4.7"
 description = "Daycount methods to compute date differences in year units"
 authors = ["Ulf Hamster <554c46@gmail.com>", "squak <squakrazv@gmail.com>"]
 license = "MIT"
@@ -27,3 +27,13 @@ pandas = "^1.5.3"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = [
+    "yearfrac/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "main"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
