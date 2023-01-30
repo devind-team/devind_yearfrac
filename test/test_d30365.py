@@ -1,5 +1,5 @@
 import unittest
-from yearfrac import d30365
+from devind_yearfrac import d30365
 
 
 class TestActIsda(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from yearfrac import yearfrac
+from devind_yearfrac import yearfrac
 from datetime import datetime
 import numpy as np
 

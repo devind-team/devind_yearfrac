@@ -1,5 +1,5 @@
 import unittest
-from yearfrac import jd_to_date
+from devind_yearfrac import jd_to_date
 
 
 class TestJulianDay(unittest.TestCase):

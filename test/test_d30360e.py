@@ -1,5 +1,5 @@
 import unittest
-from yearfrac import d30360e
+from devind_yearfrac import d30360e
 
 
 class Testd30360e(unittest.TestCase):

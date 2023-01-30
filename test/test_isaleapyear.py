@@ -1,5 +1,5 @@
 import unittest
-from yearfrac import isaleapyear
+from devind_yearfrac import isaleapyear
 
 
 class TestIsaLeapYear(unittest.TestCase):

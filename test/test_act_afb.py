@@ -1,5 +1,5 @@
 import unittest
-from yearfrac import act_afb
+from devind_yearfrac import act_afb
 
 
 class TestActAfb(unittest.TestCase):
