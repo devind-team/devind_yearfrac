@@ -2,8 +2,7 @@ import unittest
 from yearfrac import isaleapyear
 
 
-class Test_IsaLeapYear(unittest.TestCase):
-
+class TestIsaLeapYear(unittest.TestCase):
     def test1(self):
         lyrs = [
             1804, 1808, 1812, 1816, 1820, 1824, 1828, 1832, 1836, 1840, 1844,
@@ -37,6 +36,5 @@ class Test_IsaLeapYear(unittest.TestCase):
         self.assertEqual(isaleapyear(2020), True)
 
 
-# run
 if __name__ == '__main__':
     unittest.main()
